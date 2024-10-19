@@ -1,0 +1,89 @@
+body {
+    background-color: #b8d9d0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.avatar {
+    border-radius: 100%;
+    width: 170px;
+    height: 170px;
+    border: 2px solid #000000;
+}
+
+.flex-container {
+    display: flex;
+    max-width: 900px;
+    background-color: #f2f2f0;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.left-column {
+    width:35%;
+    padding: 40px;
+}
+
+.contact p {
+    margin-bottom: 20px;
+    background-color: #dff2eb;
+    border: 1px;
+    border-radius: 8px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: inset;
+}
+.skills ul {
+    margin-top: 5px;
+}
+
+.skills ul li {
+    margin-bottom: 2px;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 1.2;
+}
+
+.right-column {
+    width: 65%;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    font-size: 25px;
+    color: gray;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    margin-top: 10px;
+    line-height: 1.2;
+    font-size: 15px;
+}
+
+.major {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.date {
+    color: gray;
+    font-size: 12px;
+}
